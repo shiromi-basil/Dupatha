@@ -6,5 +6,14 @@ A demo web site for getting information regarding tourism in Sri Lanka.
 * [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 * [JavaScript](https://www.javascript.com/)
 
+## Website link
+Click [here](https://shiromi-basil.github.io/Dupatha/) to see live demo.
+
+## Authors
+* Shiromi Basil - [shiromi-basil](https://github.com/shiromi-basil)
+* Sajani Sihara - [sajani-sihara](https://github.com/sajani-sihara)
+* Christina Thambirajah - [christina-thambirajah](https://github.com/christina-thambirajah)
+* Safiyyah Thur Rahman - [SafiyyahR](https://github.com/SafiyyahR)
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
