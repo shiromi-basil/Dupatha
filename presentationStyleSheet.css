@@ -1,0 +1,49 @@
+.mainGrid{ /*styling for the grid*/
+	display: grid;
+	grid-template-columns:133px 275px 275px 275px 275px 133px;
+	grid-template-rows: 200px 300px;
+}
+.logoPresentation{ /*style for the logo*/
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+
+.nameOf{/*to center align the name of the student*/
+text-align: center;
+}
+.heading{ /*to style the picture(the heading)*/
+	margin: 8% 24% 3% 24%;
+	overflow:hidden;
+	grid-column: 2/6;
+	grid-row: 1/2;
+}
+.headingImg{
+	margin-left:23.5%;
+}
+body{ /*to make sure the backgroung image covers the entire space*/
+	margin:0;
+	cursor: wait; /*make the cursor to a loading sign*/
+}
+#myPic{ /*to make the picture into a round you need to have a border radius of 50%*/
+	width: 225px;
+	height: 225px;
+	border-radius: 50%;
+}
+.person1Pic{/*to style for the 1st picture*/
+	margin-left:13%;
+	grid-column: 2/3;
+	grid-row: 2/3;
+}
+.person2Pic{ /*to style the 2nd picture*/
+	margin-left:13%;
+	grid-column:3/4;
+	grid-row: 2/3;
+}.person3Pic{/*style for the 3rd picture*/
+	margin-left:13%;
+	grid-column: 4/5;
+	grid-row: 2/3;
+}.person4Pic{/*style for the 4th picture*/
+	margin-left:13%;
+	grid-column: 5/6;
+	grid-row:2/3;
+}
