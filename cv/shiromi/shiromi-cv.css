@@ -1,0 +1,361 @@
+/*styling the navigation menu*/
+#topnav{
+	overflow: hidden;
+	font-family: "Ink free", Centaur;
+	font-weight: bold;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 300;
+	padding-right: 150px;
+}
+
+#topnav a {
+	float: right;
+	display: block;
+	color: #f2f2f2;
+	padding: 20px 15px 20px 15px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#topnav p {
+	float: left;
+	color: #f2f2f2;
+	padding: 15px 20px 15px 20px;
+	font-size: 20px;
+	margin: inherit;
+	font-family: "Ink free", Centaur;
+	font-weight: bold;
+}
+
+#topnav a:hover {
+	background-color: #7eb481;
+	color: #000000;
+	border-radius: 2em;
+	padding: 5px 5px 5px 5px;
+}
+
+body {
+	margin: 0;
+}
+
+/*container holding the image and the text*/
+#top-bar {
+	position: relative;
+	text-align: center;
+	color: white;
+	height: 560px;
+	width: 100%;
+	top: -20px;
+	background: url(images/cover.jpg);
+	background-size: cover;
+	color: transparent; /*hide the alt text for background-image*/
+	overflow: hidden;
+}
+
+#layer {/*adding the color layer over the image*/
+	background-color: rgba(13, 38, 13, 0.7);
+	width: 100%;
+	height: 100%;
+}
+
+.image-text {/*positioning the text over the header image*/
+	position: absolute;
+	color: #FFFFFF;
+	font-family: simon, Segoe Print;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#text1 {
+	top: 390px;
+}
+
+#text2 {
+	top: 450px;
+}
+
+#myImage {/*positioning the my image over the header image*/
+	top: 170px;
+	left: 50%;
+	margin-left: -90px;
+	height: 32%;
+	width: 12%;
+	z-index: 2;
+	position: absolute;
+	border-radius: 50%;
+	filter: grayscale(23%);
+}
+ 
+#about {/*styling the about div*/
+	width: 85%;
+	height: 300px;
+	margin: 50px 100px 50px 100px;
+	/* offset-x | offset-y | blur-radius | spread-radius | color */
+	box-shadow: 0 0 5px 5px #a6a6a6;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+	float: left;
+	width: 50%;
+	padding: 10px 20px 10px 20px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1, h2 {
+	font-family: "Teen", Verdana;
+}
+
+p, li {
+	font-family: comfortaa, Verdana;
+}
+
+.column-1 {
+	float: left;
+	width: 75%;
+	padding: 10px 20px 10px 20px;
+}
+
+.column-2 {/*references column*/
+	width: 35%;
+	float: left;
+	padding: 10px 0 10px 40px;
+}
+
+.column-3 {/*references column*/
+	width: 40%;
+	float: right;
+	padding: 10px 100px 10px 0;
+}
+
+#firstCV {
+	margin-top: 100px;
+}
+
+.cv-info {
+	width: 85%;
+	height: 250px;
+	margin: 50px 100px 50px 100px;
+	/* offset-x | offset-y | blur-radius | spread-radius | color */
+	box-shadow: 0 0 5px 5px #a6a6a6;
+}
+
+#col-1 {
+	width: 23%;
+	height: 100%;
+	background-color: #388C3F;
+	display: table;
+	color: #FFFFFF;
+}
+
+#col-1 h1 {
+	text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+li {
+	font-size: 20px;
+	line-height:200%;
+}
+
+ul {
+	list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+	content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+	color: #388C3F; /* Change the color */
+	font-weight: bold; /* If you want it to be bold */
+	display: inline-block; /* Needed to add space between the bullet and the text */
+	width: 1em; /* Also needed for space (tweak if needed) */
+	margin-left: -2em; /* Also needed for space (tweak if needed) */
+}
+
+#contact {
+	width: 85%;
+	height: 550px;
+	margin: 150px 100px 50px 100px;
+	/* offset-x | offset-y | blur-radius | spread-radius | color */
+	box-shadow: 0 0 5px 5px #a6a6a6;
+	color: #FFFFFF;
+}
+
+#contact-image {/*styling the contact image behind the contact information*/
+	width: 38%;
+	height: 550px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	padding: 80px 15px 0px 130px;
+	filter: grayscale(65%);
+	float: left;
+}
+
+/*styling the contact form*/
+#contact-form {
+	width: 62%;
+	height: 550px;
+	color: #000;
+	text-align: Center;
+	float: right;
+	padding: 15px 120px 15px 120px;
+}
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 3px solid #388C3F;
+	border-radius: 10px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	font-family: "Teen";
+}
+
+input[type=submit] {
+	background-color: #388C3F;
+	color: #FFFFFF;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	font-family: "Teen";
+	font-weight: bold;
+}
+
+input[type=submit]:hover {
+	background-color: #4caf50;
+	color: #000;
+	font-family: "Teen";
+	font-weight: bold;
+}
+
+/*styling the email link in the contact information*/
+#contact-image a {
+	color: #FFFFFF;
+	font-family: "comfortaa";
+	text-decoration: none;
+}
+
+#contact-image a:hover {
+	color: #5cd6d6;
+	text-decoration: none;
+}
+
+/*The styling in class readmore is used 
+for all the buttons of this website.*/
+.readmore{
+	margin-left:45%;
+    font-size: .83rem;
+    border-radius: 3px;
+    padding: .8333333333rem;
+	border: 1px solid #005d8f;
+	background-color:inherit;
+	color:#000 ;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	transition:1s;
+	font-family:"SummitBold-Display";
+	
+}
+
+/*When you hover over any button
+it will do the following changes*/
+.readmore:hover {
+	background-color: #39ac39;
+	color: white;
+	border: 1px solid #005d8f;
+  
+}
+
+/*This is main navigation bar that pops out
+from the right side*/
+.mainNavBar {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	z-index: 500;
+	background-color: #fff;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+	
+}
+
+/*The styling for the main naviagtion bar links*/
+.mainNavBar a {
+	padding: 8px 8px 8px 32px;
+	padding: .833333rem 0;
+	text-decoration: none;
+	font-size: 12px;
+	font-family:"SummitBold-Display";
+	font-weight: 900;
+	color: #000; 
+	text-transform: uppercase;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+	display: block;
+    overflow: hidden;
+    letter-spacing: 1px; 
+    transform: translateZ(0);
+    will-change: transform,opacity;
+    transition: transform .3s,opacity .3s;
+	border-bottom: 1px solid #ccc;
+	margin-left:40px;
+	margin-right:40px;
+}
+
+/*When you hover over the main navigation menu links
+the following changes will occur*/
+.mainNavBar a:hover {
+	text-decoration: none;
+	color: #7eb481;
+	cursor: pointer;
+}
+
+/*Placing the cross in the correct position*/
+.mainNavBar .closebtn {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 36px;
+}
+
+#cross{
+	border-bottom:none;
+}
+
+/*Styling for MENU button*/
+#main-1 {
+	z-index: 450;
+	position: fixed;
+	top: 20px;
+	right: 35px;
+	float:right;
+	transition: margin-right 0.5s;
+	padding: 0px 5px 0px 5px;
+	font-size:18px;
+	cursor:pointer;
+	color:#FFFFFF;
+	border:solid;
+	border-color:#FFFFFF;
+	border-width:2px;
+	font-family:"SummitBold-Display";
+	font-weight:normal;
+}

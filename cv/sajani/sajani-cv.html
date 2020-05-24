@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<title>Sajani CV </title>
+		<link rel="stylesheet" href="sajani-cv.css" type="text/css">
+		
+	</head>
+	
+	<body>
+	<div class="the-grid">
+		<!--The mainNavBar div that contains the menu that pops up from the right side of the page-->
+			<div id="mainNav" class="mainNavBar">
+				<a href="javascript:void(0)" id="cross" class="closebtn" onclick="closeMenu()">&times;</a>
+				<a href="../../home1.html">Home</a>
+				<a href="../../advice/advice.html">Things to know</a>
+				<a href="../../destination/destinations.html">Destinations</a>
+				<a href="../../colombo/colombo.html">Colombo</a>
+				<a href="../../tours/tours.html">Tours</a>
+				<a href="../../hotels/hotelmain.html">Accommodation</a>
+				<a href="../../gallery/gallery.html">Gallery</a>
+				<a href="../../boutique/product1.html">Boutique</a>
+				<a href="../../comment-form/contact2.html">Contact</a>
+				<a href="../../sitemap/sitemap.html">Sitemap</a>
+			</div>
+			
+			<!--The div for the menu that pops when you scroll down the page-->
+			<div id="scrollingNav">
+				<div id="main-1"class="readmore">
+					<span onclick="openMenu()"> MENU</span>
+				</div>
+			</div>
+			<script>
+			
+			function openMenu() {
+				document.getElementById("mainNav").style.width = "250px";
+				document.getElementById("main").style.marginLeft = "250px";
+			}
+
+			function closeMenu() {
+				  document.getElementById("mainNav").style.width = "0";
+				  document.getElementById("main").style.marginLeft= "0";
+			}
+	
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+				if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+					document.getElementById("scrollingNav").style.transition = "background-color 0.3s ease-in";
+					document.getElementById("scrollingNav").style.backgroundColor = "rgba(204,204,204,0.5)";
+					
+				
+				} 
+				else {
+					document.getElementById("scrollingNav").style.backgroundColor = "transparent";
+					document.getElementById("scrollingNav").style.transition = "background-color 0.3s ease-out";
+					
+				}
+			}
+			</script>	
+			<div class="topnav">
+				<a href="#personal">Personal Information</a>
+				<a href="#profile">Profile</a>
+				<a href="#skills">Skills</a>
+				<a href="#technical">Technical</a>
+				<a href="#education">Education</a>
+				<a href="#extracurricular">Extra curricular</a>
+				<a href="#references">References</a>
+			</div>
+			<div class="cvContainer">
+				<div class="header">
+					<h1>Sajani Sihara</h1>
+					<h2>Software Engineer, Web Designer</h2>
+					<img class="image" src="../../main-images/sajani1.jpg"/>
+				</div>
+				<div class="cvbody">
+					<div class="headings" id="personal">
+						<h2>Personal Information</h2>
+					</div>
+					
+					<div class="personalinfo">
+						<p class="info">
+							Full Name : Sajani Sihara Lenduwa Lokuge 
+						</p>
+						<p class="info">
+							Address : 224/3, Pathiragoda Road, Maharagama. 
+						</p>
+						<p class="info">
+							Phone   : (+94) 0778326234
+						</p>
+						<p class="info">
+							Email   :  <a href="mailto:sajanisihara@gmail.com">sajanisihara@gmail.com</a> 
+						</p>
+					</div>
+					
+					<div class="profileheadings" id="profile">
+						<h2>Profile</h2>
+					</div>
+					<div class="personalinfo">
+						<p class="profile">
+						Progressively evolving and energetisically contributing to visual initiatives of any presented project.
+						Possess a strong commitment to perfection that runs as one of my core beliefs in any obstacle or otherwise faced in life.
+						</p>
+					</div>
+					
+					<div class="skillHeading" id="skills">
+						<h2>Skills</h2>
+					</div>
+					<div class="personalinfo">
+						<div class="skills">
+						<ul>
+							<li>
+							<h4>Web Design</h4>
+							<p>Analyze, design and implement user interfaces and UI/UX structures.</p>
+							</li>
+							
+							<li>
+							<h4>Project Direction</h4>
+							<p>Possess outstanding communication and interpersonal skills.</p>
+							</li>
+							
+							<li>
+							<h4>Problem Solving</h4>
+							<p>Has experience with various programming languages.</p>
+							</li>
+							
+							
+							<h4>Languages</h4>
+							<p>Reads, speaks and writes fluent English, Sinhala, Tamil and French.</p>
+							
+							
+						</div>
+					</div>
+					
+					<div class="technicalheadings" id="technical">
+						<h2>Technical</h2>
+					</div>
+					<div class="technicalinfo">
+						<p class="profile">
+						<ul>
+						<li>CSS</li>
+						<li>HTML</li>
+						<li>JavaScript</li>
+						<li class="right-1">MySQL</li>
+						<li class="right-2">Windows XP/Vista</li>
+						<li class="right-3">JavaFx</li>
+						<li class="right-4">TypeScript</li>
+						<li class="right-5">Python</li>
+						<li class="right-6">Java</li>
+						</ul>
+						</p>
+					</div>
+					
+					<div class="educationheading" id="education">
+						<h2>Education</h2>
+					</div>
+					<div class="educationinfo">
+						<div class="skills">
+						<ul>
+							<li>
+							<h4>Edexcel Advanced Level (2017)</h4>
+							<p>2A's and 2B's</p>
+							</li>
+							
+							<li>
+							<h4>Edexcel Ordinary Level (2015)</h4>
+							<p>9A's<p>
+							</li>
+						
+							<h4>NEW SAT 1 (2018)</h4>
+							<p>Score: 1400/1600<p>	
+							
+							
+						</div>
+					</div>
+					
+					<div class="extraheading" id="extracurricular">
+						<h2>Extra - curricular </h2>
+					</div>
+					<div class="extrainfo">
+						<div class="skills">
+						<ul>
+							<li>
+							<h4>Aviation</h4>
+							<p>Diploma in Airline Reservation and Ticketing (2012)</p>
+							<p>Completed Basics in Aviation Course at AAC, Ratmalana Airport (2011)
+							</li>
+							
+							<li>
+							<h4>Internships</h4>
+							<p>Pearson Jobs - 5 months (2017)</p>
+							<p>Audi Workshop, Senok Automobiles (PVT) Ltd - 6 months (2016)</p>
+							<p>Grant McCann Erickson - 3 months (2015)</p>
+							</li>
+							
+							<li>
+							<h4>Music</h4>
+							<p>Passed QCF CLassical Guitar Grade 4 - London College of Music (2017)<p>	
+							<p>Passed QCF CLassical Guitar Grade 3 - London College of Music (2016)<p>	
+							<p>Passed QCF CLassical Guitar Grade 2 - London College of Music (2015)<p>	
+							<p>Passed QCF CLassical Guitar Grade 1 - London College of Music (2014)<p>	
+							</li>
+							
+							<li>
+							<h4>Swimming</h4>
+							<p>NCC Swim Gala 50m freestyle - 1st place (2016)</p>
+							<p>NCC Swim Gala 50m breast stroke - 1st place (2016)</p>
+							<p>AIS Interhouse Swimming Meet 50m medley relay - 1st place (2016)</p>
+							<p>AIS Interhouse Swimming Meet 50m freestyle relay - 1st place (2016)</p>
+							</li>
+						
+							<h4> Writing</h4>
+							<p>Royal Commonwealth Competition - Platinum (2012 - 2016)</p>
+							<p>AIS Interhouse Creative Writing Competition - 1st place (2014 - 2016)</p>
+							<p>Sri Lanka - Thailand Society Essay Competition - 3rd place (2015)</p>
+							
+						</div>
+					</div>
+					<div class="redheading" id="references">
+						<h2>References</h2>
+					</div>
+					<div class="refinfo">
+						<div class="skills">
+						<ul>
+							<li>
+							<h4>Mrs. Goolbai Gunasekara</h4>
+							<p>Phone Number: (+94) 11 2513181</p>
+							</li>
+							
+							<li>
+							<h4>Ms. Sandra Gomes  </h4>
+							<p>Phone Number: (+94) 77 87956143</p>
+							</li>
+							
+							<li>
+							<h4>Ms. Logeshwari Sureshkumar</h4>
+							<p>Phone Number: (+94) 77 6227868</p>	
+							</li>
+							
+							<h4>Ms. Tirzah Suares</h4>
+							<p>Phone Number: (+94) 77 3519614</p>
+							
+						</div>
+					</div>
+				
+				</div>
+				<div id="footer">
+					<p>Sajani Sihara &mdash; <a href="mailto:sajanisihara@gmail.com">sajanisihara@gmail.com</a> &mdash; (+94) 77 8326234</p>
+				</div>
+
+			</div>
+		</div>
+	</body>
+</html>

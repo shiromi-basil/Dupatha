@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<title> Shiromi CV | DUPATHA </title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="../../images/logo.png" sizes="16x16">
+		<link rel="stylesheet" type="text/css" href="shiromi-cv.css">
+		<link rel="stylesheet" type="text/css" href="fonts.css">
+		
+	</head>
+	<body>			
+		<!--The mainNavBar div that contains the menu that pops up from the right side of the page-->
+		<div id="mainNav" class="mainNavBar">
+			  <a href="javascript:void(0)" id="cross" class="closebtn" onclick="closeMenu()">&times;</a>
+			  <a href="../../home1.html">Home</a>
+			  <a href="../../advice/advice.html">Things to know</a>
+			  <a href="../../destination/destinations.html">Destinations</a>
+			  <a href="../../colombo/colombo.html">Colombo</a>
+			  <a href="../../tours/tours.html">Tours</a>
+			  <a href="../../hotels/hotelmain.html">Accommodation</a>
+			  <a href="../../gallery/gallery.html">Gallery</a>
+			  <a href="../../boutique/product1.html">Boutique</a>
+			  <a href="../../comment-form/contact2.html">Contact</a>
+			  <a href="../../sitemap/sitemap.html">Sitemap</a>
+		</div>
+		
+		<div id="main-1"class="readmore">
+			<span onclick="openMenu()"><b> MENU </b></span>
+		</div>
+				
+		<!--This function is used for the main menu of the website-->
+		<script>
+			function openMenu() {
+				document.getElementById("mainNav").style.width = "250px";
+				document.getElementById("main").style.marginLeft = "250px";
+			}
+
+			function closeMenu() {
+				  document.getElementById("mainNav").style.width = "0";
+				  document.getElementById("main").style.marginLeft= "0";
+			}
+		</script>
+		
+		<!--The topnav div contains the navigation menu-->
+		<div id="topnav" role="img" aria-label="header image">
+			<a href="#contact">Contact</a>
+			<a href="#cv">Curriculum Vitae</a>
+			<a href="#about">About</a>
+			<p>Anita Shiromi Basil Thevarajan</p>
+        </div>
+		
+		<!--The top-bar div contains the header image and text of the web page-->
+		<div id="top-bar">
+			<div id="layer">
+				<div class="image-text" id="text1">Shiromi Thevarajan</div>
+				<div class="image-text" id="text2">Software Engineering Undergraduate Student</div>
+				<img src="images/my-self.JPG" id="myImage" alt="Shiromi Thevarajan">
+			</div>
+		</div>
+		
+		<!--The about div contains the about and basic information text-->
+		<div id="about">
+			<div class="column">
+				<h1>About</h1>
+				<p>Hello! My name is Shiromi Thevarajan. Web designer and Software Engineering Ungraduate student.</p>
+				<p>To gain a solid foundation in software engineering in a private coporate environment where experieince in software systems would highly contribute to the companys's industry projects' success.</p>
+				<p>To provide excellent problem-solving and interpersonal skilss in facilitating individual and group peak performance.</p>
+			</div>
+			<div class="column">
+				<h1>Basic Information</h1>
+				<p>AGE:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;20</p>
+				<p>EMAIL:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;shiromi.2018117@iit.ac.lk</p>
+				<p>PHONE:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;076 884 5222</p>
+				<p>ADDRESS:&ensp;&ensp;&ensp;&ensp;&ensp; 64/1 Fransawatta Lane, Colombo 15</p>
+				<p>LANGUAGE:&ensp;&ensp;&ensp;&ensp;English, Tamil, Sinhala</p>
+			</div>
+		</div>
+		
+		<!--The cv div contains the curriculum vitae text-->
+		<div id="cv">
+			<!--This div contains the educational qualifications text-->
+			<div class="cv-info" id="firstCV">
+				<div  class="column-1" id="col-1">
+					<h1>Educational Qualifications</h1>
+				</div>
+				<div  class="column-1">
+					<ul>
+						<li>Passed Ordinary Level</li>
+						<li>Passed Advanced Level</li>
+						<li>Completed Diploma in Information Technology</li>
+						<li>Completed foundation course in Human Resource Management</li>
+						<li>Studying Software Engineering at Informatics Institute of Technology</li>
+					</ul>
+				</div>
+			</div>
+			
+			<!--This div contains the skills text-->
+			<div class="cv-info">
+				<div  class="column-1" id="col-1">
+					<h1>Skills</h1>
+				</div>
+				<div  class="column-1">
+					<ul>
+						<li>Fluent with Microsoft Packages</li>
+						<li>Ability to read and write English, Tamil and Sinhala</li>
+						<li>Ability to solve problems analytically.</li>
+						<li>Good public speaking skills.</li>
+						<li>Good leadership skills</li>
+					</ul>
+				</div>
+			</div>
+			
+			<!--This div contains the extra curricular activities text-->
+			<div class="cv-info">
+				<div  class="column-1" id="col-1">
+					<h1>Extra curricular Activities</h1>
+				</div>
+				<div  class="column-1">
+					<ul>
+						<li>Took-part in the marchpast squad at the school athletic meet</li>
+						<li>Member of the toastmasters international.</li>
+						<li>Served as the editor of the tamil literary association in school.</li>
+						<li>Served as a committee member of the science union in school.</li>
+						<li>Was a member of the interact club of St.Bridget's Convent</li>
+					</ul>
+				</div>
+			</div>
+			
+			<!--This div contains the personal information text-->
+			<div class="cv-info">
+				<div  class="column-1" id="col-1">
+					<h1>Personal Information</h1>
+				</div>
+				<div  class="column-1">
+					<ul>
+						<li>Birth of Date: 31st of August 1998</li>
+						<li>Nationality: Sri Lankan</li>
+						<li>Marital Status: Single</li>
+						<li>Religion: Roman Catholicism</li>
+						<li>N.I.C number: 987441089V</li>
+					</ul>
+				</div>
+			</div>
+			
+			<!--This div contains the references text-->
+			<div class="cv-info">
+				<div  class="column-1" id="col-1">
+					<h1>References</h1>
+				</div>
+				<div class="column-2">
+					<h1>Meno Thiruchelvam</h1>
+					<p>62 Rodrigo Place,</p>
+					<p>Mattakuliya,</p>
+					<p>Colombo 01500</p>
+					<p>+94 777 682846</p>
+				</div>
+				<div class="column-3">
+					<h1>Shobini Sivayogam</h1>
+					<p>75/1 St.Mary's Lane,</p>
+					<p>Mattakuliya,</p>
+					<p>Colombo 01500</p>
+					<p>+94 772 329799</p>
+				</div>
+			</div>
+		</div>
+		
+		<!--The contact div contains contact information and contact me form-->
+		<div id="contact">
+			<!--The contact-image div contains contact information-->
+			<div id="contact-image" style="background-image: url('images/bg-01.jpg');">
+				<div class="row">
+					<h2>Address</h2>
+					<p>64/1 Fransawatta Lane,<br/>Colombo 01500,<br/>Sri Lanka.</p><br/>
+				</div>
+				<div class="row">
+					<h2>Lets Talk</h2>
+					<p>+94 768 845222</p><br/>
+				</div>
+				<div class="row">
+					<h2>General Support</h2>
+					<a href="mailto:shiromi.2018117@iit.ac.lk.com">shiromi.2018117@iit.ac.lk</a>
+				</div>
+			</div>
+			
+			<!--The contact-form div contains contact me form-->
+			<form name="myForm" id="contact-form" method="post">
+				<h2>Send Me A Message</h2>
+				<input type="text" id="name" name="name" placeholder="Name" ><br/><br/>
+				<input type="text" id="subject" name="subject" placeholder="Subject"><br/><br/>
+				<input type="text" id="email" name="email" placeholder="E-mail" ><br/><br/>
+
+				<textarea id="message" name="message" placeholder="Your Message" style="height:105px" ></textarea><br/><br/>
+
+				<input type="submit" value="Send" onclick="return validation();" >
+			</form>
+		</div>
+		
+		<script>
+			// When the user scrolls down 570px from the top of the document, top navigation bar changes to solid color
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+			  if (document.body.scrollTop > 570 || document.documentElement.scrollTop > 570) {
+				document.getElementById("topnav").style.transition = "background-color 0.3s ease-in";
+				document.getElementById("topnav").style.backgroundColor = "#388C3F";
+			  } else {
+				document.getElementById("topnav").style.backgroundColor = "transparent";
+				document.getElementById("topnav").style.transition = "background-color 0.3s ease-out";
+			  }
+			}
+			
+			function validation() {
+			  var x = document.forms["myForm"]["name"].value;
+			  var y = document.forms["myForm"]["message"].value;
+			  var z = document.forms["myForm"]["email"].value;
+			  if (x == "") {
+				alert("Name must be filled out");
+				return false;
+			  }
+			  
+			  else if (z == "") {
+				alert("E-mail must be filled out");
+				return false;
+			  }
+			  
+			  else if (y == "") {
+				alert("Message must be filled out");
+				return false;
+			  }
+			  else  {
+				alert("Message succesfully submitted!");
+				return false;
+			  }
+			  return true;
+			}
+		</script>
+	</body>
+</html>

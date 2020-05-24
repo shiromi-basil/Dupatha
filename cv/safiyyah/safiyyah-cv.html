@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--links the page with its corresponding stylesheet-->
+    <link rel="icon" href="../../images/logo.png" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="safiyyah-cv.css">
+    <link rel="stylesheet" type="text/css" href="../../externalstyle.css">
+    <title>
+        Safiyyah - CV | DUPATHA
+    </title>
+    <script>
+        //onscroll the 2 functions are called
+        window.onscroll = function () { scroll() };
+        function scroll(){
+            //sticky menu
+            scrollFunction();
+            // back to top button
+            scrollDown()
+        }
+    </script>
+</head>
+
+<body>
+    <!--the main container begins-->
+    <div class="cv">
+        <!--The mainNavBar div that contains the menu that pops up from the right side of the page-->
+        <div id="mainNav" class="mainNavBar">
+            <a href="javascript:void(0)" id="cross" class="closebtn" onclick="closeMenu()">&times;</a>
+            <a href="../../home1.html">Home</a>
+            <a href="../../advice/advice.html">Things to know</a>
+            <a href="../../destination/destinations.html">Destinations</a>
+            <a href="../../colombo/colombo.html">Colombo</a>
+            <a href="../../tours/tours.html">Tours</a>
+            <a href="../../hotels/hotelmain.html">Accommodation</a>
+            <a href="../../gallery/gallery.html">Gallery</a>
+            <a href="../../boutique/product1.html">Boutique</a>
+            <a href="../../comment-form/contact2.html">Contact</a>
+            <a href="../../sitemap/sitemap.html">Sitemap</a>
+        </div>
+        <div class="backButton">
+            <button id="scrollButton" onclick="scrollToTop();" title="Click to go to the Top">
+                <svg height="40" width="40">
+                    <line id="redArrow" x1="5" y1="30" x2="20" y2="10" />
+                    <line id="redArrow" x1="35" y1="30" x2="19" y2="10" />
+                </svg>
+            </button>
+        </div>
+        <!--The div for the menu that pops when you scroll down the page-->
+        <div id="scrollingNav">
+            <a href="#"></a>
+            <img id="navlogo" src="../../images/logo.png" style="margin-top:8px; margin-left:40px;" />
+            <img id="navlogotext" src="../../images/brand1.png" />
+
+            <div id="main-1" class="readmore">
+                <span onclick="openMenu()"><b> MENU</b></span>
+            </div>
+
+            <div id="main-2" class="readmore">
+                <a href="../../comment-form/contact2.html"><span><b> CONTACT</b></span></a>
+            </div>
+
+            <div id="main-3" class="readmore">
+                <a href="../../boutique/product1.html"><span><b> BOUTIQUE</b></span></a>
+            </div>
+        </div>
+        <div class="mainHeading">Safiyyah Thur Rahman</div>
+        <!--the container which has the cv-->
+        <div class="anchors">
+            <div class="anchorsHeading">Content</div>
+            <ul>
+                <li id="info"><a href="#aboutMe">Personal Information</a></li>
+                <li id="school"><a href="#education">Education</a></li>
+                <li id="positions"><a href="#participation">Positions & Participations</a></li>
+                <li id="interests"><a href="#hobbies">Interests & Hobbies</a></li>
+                <li id="references"><a href="#refer">References</a></li>
+            </ul>
+        </div>
+        <div class="mainContainer">
+            <p class="subHeading">Personal Information</p>
+            <!--the container which has personal information-->
+            <div class="container1" id="aboutMe">
+                <!--this container is used to float the text to the left side-->
+                <div class="leftContainer1">
+                    <p>Address:623/10 Rajagiriya Garden, Nawala Road, Rajagiriya</p>
+                    Email: <a href="mailto: safiyyah.2018025@iit.ac.lk">safiyyah.2018025@iit.ac.lk</a>
+                    <p>Telephone: <a href="tel:0094764001994">+94764001994</a></p>
+                    <!--the grid is used to display the social media icons side by side-->
+                    <div class="grid">
+                        <div>
+                            <a href="https://www.facebook.com/safiyyah.thurrahman"><img src="images/facebook.png"
+                                    class="socialMedia"></a>
+                        </div>
+                        <div>
+                            <a href="https://www.instagram.com/safiyyahrahman/"><img src="images/insta.jpg"
+                                    class="socialMedia"></a>
+                        </div>
+                        <div>
+                            <a href="https://www.linkedin.com/in/safiyyah-r-408652132"><img src="images/linkedin.png"
+                                    class="socialMedia"></a>
+                        </div>
+                    </div>
+                    <!--end of the grid-->
+                </div>
+                <!--the container is used to float the image to the right side-->
+                <div class="rightContainer1">
+                    <img src="images/safiyyah.jpg" class="myImage" alt="Myself">
+                </div>
+            </div>
+            <!--end of the personal information container-->
+            <!--the personal Statment container begins-->
+            <div class="container1">
+                <p class="subHeading">Personal Statement</p>
+                <p class="personal">I have always had an interest in Mathematics and then I developed an interest in
+                    Programming when I was 16. This paved way for me to make the descion of taking Software Engineering
+                    as my degree. I am skilled in SQL and Python and very eager to learn other languages as well.
+                </p>
+            </div>
+            <!--the personal Statement Container ends-->
+            <!--the education container begins-->
+            <div class="container1" id="education">
+                <p class="subHeading">Education</p>
+                <!--the pre tag is used to display the content the way it is typed-->
+                <pre>
+            2018 -                  Informatics Institute of Technology
+                                                Studying B.Eng (Hons) Software Engineering
+            2008 – 2018	Ilma International Girl’s School.<br/>
+                                                A/Levels: Mathematics (A*), Computer Science (A*), Chemistry (A*), Physics (A*).<br/>
+                                                GCE’s: Islam (A), Additional Mathematics (A), Mathematics (A*), Chemistry (A*), 
+                                                Computer Science (A*), Physics (A), Biology (A), English (A).<br/>
+            2006 – 2008	Crescent Girls’ School.<br/>
+            </pre>
+            </div>
+            <!--end of education container-->
+            <!--the participation container begins-->
+            <div class="container1" id="participation">
+                <p class="subHeading">Positions and Participations</p>
+                <div class="list">
+                    <ul>
+                        <li>Student Director of the MCIIT (2018/2019).</li>
+                        <li>Participant of HashCode 2019</li>
+                        <li>Participant of IEEE Xtreme 2018</li>
+                        <li>Secetary of Caring Hands Society (2018).</li>
+                        <li>Member of Mathematics Society (2017).</li>
+                        <li>Participant of Inter-House Science Quiz (2016, 2018).</li>
+                        <li>Participant of Inter-House Mathematics Quiz (2015, 2016, 2017, 2018).</li>
+                        <li>Participant of Inter-House Computing Quiz (2015, 2016, 2017, 2018).</li>
+                        <li>Participant of Science Quiz held by IMU (2018)</li>
+                    </ul>
+                </div>
+            </div>
+            <!--end of participation container-->
+            <!--beginning of Hobbies container-->
+            <div class="container1" id="hobbies">
+                <p class="subHeading">Interest and Hobbies</p>
+                <div class="list">
+                    <ul>
+                        <li>Learning New Languages and Cultures</li>
+                        <li>Travelling</li>
+                        <li>Baking</li>
+                        <li>Applying Mehendi</li>
+                    </ul>
+                </div>
+            </div>
+            <!--end of the hobbies container-->
+            <!--beginning of the reference container-->
+            <div class="container1" id="refer">
+                <p class="subHeading">References</p>
+                <div class="refContainer">
+                    <p>Mrs. Jazama Azad<br>
+                        Computer Science Head<br>
+                        Ilma International Girl's School,<br>
+                        Colombo 5.<br>
+                        Telephone: 0114362212</p>
+                </div>
+                <div class="refContainer">
+                    <p>Mr. Ruwan Iddamalgoda<br>
+                        Computer Science Teacher<br>
+                        The Teachers Guild,<br>
+                        Pepiliyana.<br>
+                        Telephone: 0779435713</p>
+                </div>
+            </div>
+            <!--the end of the reference container-->
+        </div>
+        <!--end of the cv-->
+    </div>
+    <script src="../../function.js"></script>
+    <script>
+        function scrollDown() {
+            if (document.documentElement.scrollTop > 250) {
+                document.getElementById("scrollButton").style.display = "block";
+            } else {
+                document.getElementById("scrollButton").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function scrollToTop() {
+            document.documentElement.scrollTop = 0;
+        }
+        
+    </script>
+    <!--end of the main container-->
+</body>
+
+</html>
