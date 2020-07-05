@@ -7,7 +7,7 @@ A demo web site for getting information regarding tourism in Sri Lanka.
 * [JavaScript](https://www.javascript.com/)
 
 ## Website link
-Click [here](https://shiromi-basil.github.io/Dupatha/presentation/presentationPage.html) to see live demo.
+Click [here](https://shiromi-basil.github.io/Dupatha/home.html) to see live demo.
 
 ## Authors
 * Shiromi Basil - [shiromi-basil](https://github.com/shiromi-basil)
