@@ -4,7 +4,7 @@ A demo web site for getting information regarding tourism in Sri Lanka.
 ## Built With
 * [HTML](https://www.w3.org/html/)
 * [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
-* [JavaScript](https://www.javascript.com/)
+* [JavaScript](https://devdocs.io/javascript/)
 
 ## Website link
 Click [here](https://shiromi-basil.github.io/dupatha/home.html) to see live demo.
